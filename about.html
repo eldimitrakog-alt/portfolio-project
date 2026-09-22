@@ -1,11 +1,26 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+
+    <title>About - Elisavet Dimitrakogianni</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Capriola&family=Ubuntu:ital,wght@1,300;1,500&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
     <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg custom-navbar">
       <div class="container-fluid px-4 px-md-5 py-3">
@@ -17,6 +32,7 @@
           />
           <span class="wordmark">Elisavet</span>
         </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -28,13 +44,14 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse justify-content-end" id="navMenu">
           <ul class="navbar-nav nav-links">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link active" href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="projects.html">Projects</a>
@@ -46,42 +63,106 @@
         </div>
       </div>
     </nav>
+
     <hr class="divider" />
-    <section class="hero container-fluid px-4 px-md-5 py-5">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h1 class="hero-title">About Me</h1>
-          <p class="hero-subtitle">
-            I am a passionate front-end developer with a love for creating
-            beautiful and functional web experiences. With a strong foundation
-            in HTML, CSS, and JavaScript, I enjoy bringing designs to life and
-            ensuring seamless user interactions.
-          </p>
-          <p class="hero-subtitle">
-            When I'm not coding, you can find me exploring new technologies,
-            having a nice coffee with my friends, or enjoying a good book. I
-            believe in continuous learning and strive to stay updated with the
-            latest trends in web development.
-          </p>
+
+    <main>
+      <section class="container-fluid px-4 px-md-5 py-5">
+        <div class="row align-items-center justify-content-center g-5">
+          <div class="col-md-5 text-center">
+            <img
+              src="images/portait2.jpg"
+              alt="Portrait of Elisavet Dimitrakogianni"
+              class="portrait"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <h1 class="section-heading">About me</h1>
+
+            <p class="section-text">
+              Hi, I'm Elisavet from Athens, Greece, currently living and working
+              in Berlin, Germany.
+            </p>
+
+            <p class="section-text">
+              I enjoy creating clean, responsive and user-friendly websites. I
+              am currently studying at SheCodes, a coding bootcamp for women. My
+              interest in front-end development grew from a curiosity about how
+              websites work and a desire to turn ideas into interactive digital
+              experiences.
+            </p>
+
+            <p class="section-text">
+              I am continuously learning and developing my skills through
+              personal projects, experimenting with new technologies and
+              building interfaces from scratch.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="container-fluid px-4 px-md-5 py-5">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-7">
+            <h2 class="section-heading">My skills</h2>
+
+            <p class="section-text">
+              I work mainly with HTML, CSS and JavaScript, and I use Bootstrap
+              to create responsive layouts. I also enjoy working with APIs and
+              exploring tools and technologies that help me build better
+              projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid px-4 px-md-5 py-5">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-7">
+            <h2 class="section-heading">Currently learning</h2>
+
+            <p class="section-text">
+              I'm continuing to expand my front-end development knowledge by
+              building projects, improving my JavaScript skills and learning
+              more about modern web development practices.
+            </p>
+
+            <a href="projects.html" class="text-link"> Explore my projects </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <footer class="site-footer text-center py-5">
       <div class="footer-wordmark">Elisavet</div>
+
       <ul class="footer-nav list-inline">
-        <li class="list-inline-item"><a href="index.html">Home</a></li>
-        <li class="list-inline-item"><a href="about.html">About</a></li>
-        <li class="list-inline-item"><a href="projects.html">Projects</a></li>
-        <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+        <li class="list-inline-item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="about.html">About</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="projects.html">Projects</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="contact.html">Contact</a>
+        </li>
       </ul>
+
       <p class="footer-meta">
         © <span id="year"></span> - Elisavet Dimitrakogianni
       </p>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       crossorigin="anonymous"
     ></script>
+
     <script src="script.js"></script>
+    ```
   </body>
 </html>

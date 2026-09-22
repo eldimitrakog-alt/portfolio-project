@@ -1,11 +1,28 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    ```
+    <title>Projects - Elisavet Dimitrakogianni</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Capriola&family=Ubuntu:ital,wght@1,300;1,500&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
     <link href="styles.css" rel="stylesheet" type="text/css" />
-    <title>Projects</title>
+    ```
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg custom-navbar">
       <div class="container-fluid px-4 px-md-5 py-3">
@@ -17,6 +34,8 @@
           />
           <span class="wordmark">Elisavet</span>
         </a>
+
+        ```
         <button
           class="navbar-toggler"
           type="button"
@@ -28,16 +47,17 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse justify-content-end" id="navMenu">
           <ul class="navbar-nav nav-links">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
+              <a class="nav-link active" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -46,23 +66,144 @@
         </div>
       </div>
     </nav>
+
     <hr class="divider" />
+
+    <main>
+      <section class="container-fluid px-4 px-md-5 py-5">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-7">
+            <h1 class="section-heading">My projects</h1>
+
+            <p class="section-text">
+              Here are some of the projects I have built while learning and
+              developing my front-end development skills.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center g-5">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project-image">
+              <img
+                src="images/project-worldclock.png"
+                alt="World Clock project screenshot"
+                class="project-thumb"
+              />
+            </div>
+
+            <h2 class="project-name">World Clock</h2>
+
+            <p class="section-text">
+              A world clock application that displays the current time in
+              different cities around the world.
+            </p>
+
+            <a
+              href="https://my-worldclockproject.netlify.app/"
+              target="_blank"
+              rel="noopener"
+              class="text-link project-link"
+            >
+              View project →
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project-image">
+              <img
+                src="images/project-haiku.png"
+                alt="Haiku Generator project screenshot"
+                class="project-thumb"
+              />
+            </div>
+
+            <h2 class="project-name">Haiku Generator</h2>
+
+            <p class="section-text">
+              An AI-powered haiku generator created to experiment with
+              JavaScript, APIs and interactive user interfaces.
+            </p>
+
+            <a
+              href="https://ai-haikou-generator.onrender.com/"
+              target="_blank"
+              rel="noopener"
+              class="text-link project-link"
+            >
+              View project →
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project-image">
+              <img
+                src="images/project-meteo.png"
+                alt="MyMeteo project screenshot"
+                class="project-thumb"
+              />
+            </div>
+
+            <h2 class="project-name">MyMeteo</h2>
+
+            <p class="section-text">
+              A weather application that uses weather data to display current
+              conditions and forecasts for different locations.
+            </p>
+
+            <a
+              href="https://my-meteo-app-1q9k.onrender.com/"
+              target="_blank"
+              rel="noopener"
+              class="text-link project-link"
+            >
+              View project →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid px-4 px-md-5 py-5 text-center">
+        <h2 class="section-heading">More projects coming soon</h2>
+
+        <p class="section-text">
+          I'm always working on new ideas and looking for opportunities to
+          improve my skills through practice.
+        </p>
+
+        <a href="contact.html" class="text-link"> Get in touch </a>
+      </section>
+    </main>
+
     <footer class="site-footer text-center py-5">
       <div class="footer-wordmark">Elisavet</div>
+
       <ul class="footer-nav list-inline">
-        <li class="list-inline-item"><a href="index.html">Home</a></li>
-        <li class="list-inline-item"><a href="about.html">About</a></li>
-        <li class="list-inline-item"><a href="projects.html">Projects</a></li>
-        <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+        <li class="list-inline-item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="about.html">About</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="projects.html">Projects</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="contact.html">Contact</a>
+        </li>
       </ul>
+
       <p class="footer-meta">
         © <span id="year"></span> - Elisavet Dimitrakogianni
       </p>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       crossorigin="anonymous"
     ></script>
+
     <script src="script.js"></script>
+    ```
   </body>
 </html>
